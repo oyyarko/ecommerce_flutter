@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "465077525059",
+    "firebase_url": "https://eshop-b0590.firebaseio.com",
+    "project_id": "eshop-b0590",
+    "storage_bucket": "eshop-b0590.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465077525059:android:c9e92f016e1b7756ad12f6",
+        "android_client_info": {
+          "package_name": "com.arkoapp.eshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465077525059-sv7i2ohmro93aru9jfreqoq3alapp1pd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs-SimpU57f60y75y7KkXuYgbIOCqmAEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465077525059-sv7i2ohmro93aru9jfreqoq3alapp1pd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
