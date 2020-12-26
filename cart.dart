@@ -1,3 +1,24 @@
+final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
+
+class CartPage extends StatefulWidget {
+  @override
+  _CartPageState createState() => _CartPageState();
+}
+
+class _CartPageState extends State<CartPage> {
+  double totalAmount;
+
+  @override
+  void initState() {
+    super.initState();
+
+    totalAmount = 0;
+    Provider.of<TotalAmount>(context, listen: false).displayResult(0);
+  }
+
+
+__________________________________
+
 body: SingleChildScrollView(
           scrollDirection: Axis.vertical,
           child: Column(
